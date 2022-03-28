@@ -238,10 +238,10 @@ ul.navbar li a {
   position: absolute;
   text-align: left;
   width: 76%;
-  top: 60%;
   left: 10%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  top: 75%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   padding-left: 2%;
   padding-right: 2%;
   line-height: 50%;
@@ -253,8 +253,8 @@ ul.navbar li a {
   position: absolute;
   text-align: left;
   width: 80%;
+  top: 60%;
   height: 10%;
-  top: 47.5%;
   left: 10%;
 }
 
@@ -279,7 +279,7 @@ ul.navbar li a {
 .accordion {
   position: absolute;
   left: 10%;
-  top: 75%;
+  top: 100%;
   width: 80%;
   height: 30%;
   background-color: #f4f4f4;
@@ -385,6 +385,12 @@ ul.navbar li a {
   padding: 5%;
 }
 
+.books-list li a{
+  color: #f4f4f4;
+  text-decoration: none;
+  padding-left: 15%;
+}
+
 .books-results {
   left: 5%;
 }
@@ -397,13 +403,14 @@ ul.navbar li a {
   background-color: #5c6274;
   color: #f4f4f4;
   float: right;
-  width: 68%;
+  width: 78%;
   height: 100%;
   border: none;
 }
 
 .search-bar:focus{
   outline: none;
+  box-shadow: none;
 }
 
 .search-bar::placeholder{
@@ -417,6 +424,7 @@ ul.navbar li a {
   background-color: #5c6274;
   color: #f4f4f4;
   border: none;
+  font-size: 1vw;
 }
 
 #choose-list{
@@ -459,10 +467,42 @@ ul.navbar li a {
 }
 
 .form-div{
+  position: absolute;
   padding: 5%;
-  width: 50%;
+  width: 40%;
   height: auto;
   left: 25%;
-  top: 50%;
+  top: 25%;
   background-color: #5c6274;
+  color: #f4f4f4;
+}
+
+.image-container{
+  background-color: #5c6274;
+  position: absolute;
+  width: 25%;
+  padding-top: 100%;
+}
+
+.user-books{
+  position: absolute;
+  width: 90%;
+  height: 25%;
+  top: 60%;
+  left: 5%;
+}
+
+.user-books ul{
+  display: inline;
+  width: 100%;
+  height: 100%;
+}
+
+.user-books ul li{
+  list-style: none;
+  padding-left: 0;
+}
+
+#see-more-books{
+
 }
